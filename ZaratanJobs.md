@@ -7,11 +7,12 @@
     - checks for Nvidia GPU should be none since they use AMD
 
 
-
 # Submitting Jobs
 [Documentation](https://hpcc.umd.edu/hpcc/help/jobs.html)
 
 Slurm Job Shell Script: ```process_data_job.sh```
+
+## Job 1: Process the Parquet file into a CSV
 
 Ensure both `process_data.py` and `process_job.sh` are in the same directory. Submit the job script using the `sbatch` command:
 
@@ -24,6 +25,20 @@ After submission, monitor the job's status with:
 ```bash
 squeue -u $USER
 ```
+
+## Job 2: Perform Simple Data Analysis on the Advan Data CSV
+
+```bash
+sbatch submit_advan_analysis.sh
+```
+
+After submission, monitor the job's status with:
+
+```bash
+squeue -u $USER
+```
+
+
 
 Once the job completes, check the output and error files (`ProcessDataJob_<jobID>.out` and `ProcessDataJob_<jobID>.err`) to ensure the script executed successfully and the CSV file was generated.
 

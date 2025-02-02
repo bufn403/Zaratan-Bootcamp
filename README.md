@@ -9,11 +9,11 @@
 The Zaratan Bootcamp introduces students to the University of Maryland's High-Performance Computing (HPC) cluster, Zaratan. This bootcamp covers essential topics such as connecting to the cluster, running jobs, transferring files, and utilizing shared resources.
 
 ## Goals
-- Understand how to connect to Zaratan from macOS, Windows, and Linux.
-- Learn how to navigate the HPC environment.
-- Submit and manage jobs using the Slurm workload manager.
+- Connect to Zaratan using SSH and (optionally) vscode SSH Remote Explorer
+- Submit and manage jobs using the Slurm workload manager
 - Transfer data to and from Zaratan.
-- Utilize shared datasets and directories for collaborative research.
+- Run a few jobs to process and analyze Advan data.
+
 
 ## Prerequisites
 1. Have an active UMD HPC account (Everyone should be added).
