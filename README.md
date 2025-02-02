@@ -20,7 +20,13 @@ The Zaratan Bootcamp introduces students to the University of Maryland's High-Pe
 2. Are enrolled in the Zaratan access list.
 3. Have Duo MFA set up for auth.
 
-## Bootcmap
+
+## Connect to Zaratan
+```
+ssh [DIRECTORY_ID]@login.zaratan.umd.edu
+```
+
+## Bootcamp
 1. Overview of Zaratan and HPC computing.
 2. Connecting to Zaratan via SSH.
 3. Clone the GitHub Repository
