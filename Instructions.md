@@ -33,7 +33,7 @@ Before connecting to Zaratan, ensure you have:
 
 To transfer files between your Mac and Zaratan:
 
-- **Using `scp` Command**:
+- **Using `scp` Command (Mac & Windows PowerShell)**:
   - Open Terminal and use the `scp` command. For example, to copy a file from your Mac to Zaratan:
 
     ```bash
@@ -45,13 +45,6 @@ To transfer files between your Mac and Zaratan:
     ```bash
     scp your_directory_id@login.zaratan.umd.edu:/path/to/remote/file /path/to/local/directory
     ```
-
-- **Using Cyberduck**:
-  - Download and install [Cyberduck](https://cyberduck.io/).
-  - Open Cyberduck and click "Open Connection."
-  - Select "SFTP (SSH File Transfer Protocol)" from the dropdown.
-  - Enter `login.zaratan.umd.edu` as the server and your UMD directory ID as the username.
-  - Click "Connect" and enter your password when prompted.
 
 ## Important Considerations
 
