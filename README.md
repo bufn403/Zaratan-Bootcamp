@@ -46,3 +46,9 @@ git clone https://github.com/bufn403/Zaratan-Bootcamp.git
 ## Resources
 - Visit the HPC support page: [https://hpcc.umd.edu/hpcc/help/](https://hpcc.umd.edu/hpcc/help/)
 
+
+# Spring 2025 Capstone Computational Finance Projects Recording 
+Recording-1(226 MB)
+https://umd.zoom.us/rec/play/KESD0JRDfAjmUNwdniINEnGQb2NOBl3824BMztmRqiwjPuGTLii2nA92zUpa4ZvQCSEU4S8yY1vMWt-c.ygTLH5KKn26jppCm
+
+Passcode: N5$ipM?@

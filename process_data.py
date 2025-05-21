@@ -11,14 +11,13 @@ def expand_json_columns(df, json_columns):
 def convert_parquet_to_csv(parquet_file, csv_file):
     df = pd.read_parquet(parquet_file)
 
-    json_columns = [
-        "visits_by_day", "visitor_home_cbgs", "visitor_home_aggregation",
-        "visitor_daytime_cbgs", "visitor_country_of_origin", "bucketed_dwell_times",
-        "related_same_day_brand", "related_same_month_brand", "popularity_by_day",
-        "popularity_by_hour", "device_type", "carrier_name"
-    ]
-    
-    df = expand_json_columns(df, json_columns)
+    # json_columns = [
+    #     "visits_by_day", "visitor_home_cbgs", "visitor_home_aggregation",
+    #     "visitor_daytime_cbgs", "visitor_country_of_origin", "bucketed_dwell_times",
+    #     "related_same_day_brand", "related_same_month_brand", "popularity_by_day",
+    #     "popularity_by_hour", "device_type", "carrier_name"
+    # ]
+    # df = expand_json_columns(df, json_columns)
 
     df.to_csv(csv_file, index=False)
 
